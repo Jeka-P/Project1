@@ -51,8 +51,8 @@ li:last-child {
     height: 19rem;
     background: linear-gradient(180deg, rgba(244, 213, 178, 0.8)0%, rgba(234, 156, 65, 0.8)100%);
     position: absolute;
-    top: 34.9rem;
-    left: 93rem;
+    top: 55%;
+    left: 60%;
     padding-top: 1.5rem;
     text-align: center;
 }
