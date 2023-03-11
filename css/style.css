@@ -2,13 +2,18 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 header {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 nav {
-    margin-bottom: 20px;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
 }
 
 body {
@@ -23,51 +28,51 @@ a {
 ul {
     list-style-type: none;
     text-align: center;
-    padding: 0px;
+    padding: 0;
 }
 
 li {
     display: inline;
-    margin-right: 100px;
+    margin-right: 10rem;
 }
 
 li:last-child {
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .about {
-    height: 640px;
+    height: 64rem;
     background: url(../img/фон.jpg) center/cover no-repeat;
     position: relative;
 }
 
 .about__block {
-    width: 420px;
-    height: 190px;
+    width: 42rem;
+    height: 19rem;
     background: linear-gradient(180deg, rgba(244, 213, 178, 0.8)0%, rgba(234, 156, 65, 0.8)100%);
     position: absolute;
-    top: 349px;
-    left: 930px;
-    padding-top: 15px;
+    top: 34.9rem;
+    left: 93rem;
+    padding-top: 1.5rem;
     text-align: center;
 }
 
 .about__border {
-    width: 390px;
-    height: 160px;
-    border: 1px solid black;
+    width: 39rem;
+    height: 16rem;
+    border: 0.1rem solid black;
     margin: 0 auto;
     text-align: left;
-    padding: 17px 5px 0 25px;
+    padding: 1.7rem .5rem 0 2.5rem;
 }
 
 .about__title {
-    font-size: 28px;
+    font-size: 2.8rem;
     margin: 0;
-    margin-bottom: 9px;
+    margin-bottom: .9rem;
 }
 
 .about__text {
-    font-size: 14px;
+    font-size: 1.4rem;
     margin: 0;
 }
